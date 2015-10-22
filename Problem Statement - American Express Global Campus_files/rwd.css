@@ -1,0 +1,181 @@
+.menu_res{width:100%; display:none; background:rgba(0,0,0,0.3); left:0; right:0; height:100%; top:0; z-index:9999; position:fixed;}
+.menu_res .menu_res_ins{width:0; overflow-y:scroll; box-shadow:0px 0px 9px 5px #000; border-right:1px solid #444; height:100%;  top:0; background:#111; position:absolute; left:0}
+.menu_res .menu_res_ins ul li{display:block}
+.menu_res .menu_res_ins ul li a{padding:15px 10px; display:block;background:#222; color:#fff; border-bottom:1px solid #111; border-top:1px solid #333;}
+.menu_res .menu_res_ins ul li a:hover{background:#007ec3}
+.menu_btn{display:none}
+.mbtm{ display:none}
+ul.impdts li p{ padding-top:12px;}
+@media only screen and (max-width: 1100px){
+#headr{ width:100%;}
+#headr .logo{ margin-left:10px;}
+#headr .navbr ul{margin-right:15px;}
+#headr .navbr{width:68%;}
+.gr_pnl{ height:inherit; overflow:hidden; padding:15px;}
+.gr_pnl .lngpnl{ padding-top:0px;}
+.gr_pnl .renpnl{ padding-top:0px;}
+.gr_pnl .conpnl{ float:left}
+.subcont{ padding-left:15px; padding-right:15px;}
+.contnt{ padding-top:15px; padding-bottom:15px; min-height:inherit}
+.resbnr{ width:100%; height:inherit}
+#footr{ padding:20px 20px 5px 20px;}
+.intnws .inbx{ width:45%; padding-left:2%; padding-right:2%;}
+.busar ul.bulst li{ margin-bottom:10px;}
+.busar ul.bulst li:last-child{ float:left; padding-right:10px;}
+.busar ul.bulst li:nth-last-child(2) {    margin-right: 10px;}
+.hombnr{ padding:0px 15px;}
+
+.homecont{ padding-top:5px; padding-left:15px; padding-right:15px;}
+.homecont .hmbx{ width:45%; padding-left:2%; padding-right:2%}
+.homecont .hmbx img{ width:100%; height:inherit}
+ul.colst{ width:auto}
+ul.colst li {margin-bottom: 10px; text-align: center; width: 20%;}
+ul.colst li img{ width:60% !important;}
+ul.impdts{ margin-left:-15px; margin-right:-15px;}
+ul.impdts li{ padding-bottom:10px; margin-bottom:20px; display:block; clear:left; overflow:hidden}
+ul.impdts li p{ padding-top:5px;}
+.gr_pnl .conpnlb { color: #333333;    display: inline-block;    float: none;    margin-top: 23px;   text-align: left;   width: 100%;}
+.gr_pnl .dashblnk{ float:left; width:100%;  margin-top: 0px; }
+.gudsub .sbn_l{ width:100%; margin-bottom:20px;}
+.gudsub .sbn_r{ width:100%;}
+.ledrbrdcn .hisbtn{ position:inherit; display:block}
+.ledrbrdcn .his{ margin-left:0px; margin-top:3px;}
+
+.quiz-madd {  padding-top:16.5%;}
+.quiz-n p{ font-size:2.5vw;  line-height:60%;}
+.quiz-n span{ font-size:1.5vw;  line-height:30%; }
+.quiz-madd .quiz-wtex h2{font-size:1.1vw; }
+.quiz-madd .quiz-wtex p{font-size:1.9vw; line-height:50%;}
+.quiz{ padding:3.5% 0px;}
+.quiz-n p{ line-height:20%;}
+.quiz-img{ width:100%}	
+.quiz-img img{ width:100%; height:auto}	
+.quiz-madd .quiz-wimg img{ width:100%; height:auto }
+.quizmain{ min-height:inherit}
+}
+@media only screen and (max-width: 767px){
+.dashcont{ padding-bottom:50px;}
+.quiz-img{ padding-top:50px; background-color:#019BBD}
+.dashblnk{ display:none}
+.gr_pnl .conpnlb{ margin-top:5px; margin-bottom:5px;}
+.gr_pnl .dashblnk ul li{ padding-bottom:10px;}
+#headr{ width:100%; padding:0px}
+.navbr{ display:none}
+#headr .logo{ margin-left:0px;}
+body.bd_fx{overflow:hidden; position:fixed;}
+#wrappr{position:relative}
+.menu_btn{ display:block; background:url(../images/menu-btn.png) no-repeat center center #ffffff; height:54px; border-right:1px solid #ddd; margin-right:10px; cursor:pointer; padding:10px; float:left; width:50px;}
+.menu_btn:hover{ opacity:0.8}
+.cls_btn{background:url(../images/clos_btn.png) no-repeat top right; opacity:0.7; text-align:right; width:40px; height:40px; display:block; margin:10px 10px; }
+.cls_btn:hover{opacity:1;}
+.gr_pnl .renpnl{ width:100%; padding-top:15px;}
+.renpnl br{ display:none}
+.renpnl a{ margin-right:20px;}
+#footr p{ padding-bottom:10px;}
+#footr ul{ padding-bottom:10px;}
+.subcont .img-right{ float:none; margin-bottom:30px; margin-left:auto; margin-right:auto;}
+.intnws .inbx .img-right{ float:right; margin-left:10px;}
+.subcont ul .img-right{ margin-left:-10px;}
+.intnws .inbx{ width:94%; padding-left:3%; padding-right:3%; margin-bottom:10px;}
+.busar{ margin-top:0px; padding-top:20px;}
+.busar ul.bulst li{ width:40%; padding:15px 3%; min-height:140px;}
+.busar ul.bulst li:last-child{ width:40%; padding:15px 3%; min-height:140px;}
+table.regfrms, table.regfrms thead, table.regfrms tbody, table.regfrms th, table.regfrms td, table.regfrms tr {display: block;}
+table.regfrms thead tr {position: absolute;	top: -9999px;left: -9999px}
+table.regfrms td {border: none; position: relative;	padding-top: 30px; padding-top:10px; padding-bottom:10px;}
+table.regfrms td:before {position: absolute; top: 6px; width: 100%; padding-right: 10px; padding-bottom:30px; white-space: nowrap;}
+table.regfrms td { width:100% !important; height:60px;}
+table.regfrms td:nth-of-type(1):before { content: ""; }
+table.regfrms td:nth-of-type(2):before { content: "First Name*"; }
+table.regfrms td:nth-of-type(3):before { content: "Last Name*"; }
+table.regfrms td:nth-of-type(4):before { content: "Institute E-mail*"; }
+table.regfrms td:nth-of-type(5):before { content: "Personal E-mail"; }
+table.regfrms td:nth-of-type(6):before { content: "Phone"; }
+table.regfrms p{ display:none}	
+.regs .regcon .inbx2{ width:92% !important; padding-left:3%;  padding-right:3%;}
+.regs .regcon .inbx3{ width:92% !important; padding-left:3%; margin-top:20px; padding-right:3%;}
+.regs .regcon .selinbx2{ width:100% !important; padding-left:3%;  padding-right:3%;}
+.mbtm{ display:block}
+.regs .regcon table h2{ color:#03205e; font-size:16px;}
+ul.colstreg .titre{ font-size:20px; padding-bottom:15px;}
+ul.colstreg{ padding:15px 0px;}
+.dashcont{ padding:15px 15px 0 15px;}
+.dashcont .dsnw{ width:92%; padding:20px 4% 20px 4%; margin-bottom:15px; min-height:inherit}
+.dashcont .dstesi{ width:92%; padding:20px 3.6%; margin-bottom:15px; margin-left:0px;  min-height:inherit}
+.dashcont .dsimpt{ width:92%; padding:20px 4% 20px 4%; margin-bottom:0px; min-height:inherit}
+.dashcont .dsimpt .dtes{ padding-top:0px;}
+.subcont ol{ margin-left:20px;}
+.quzcon ol li{ padding-left:10px; padding-right:15px; padding-bottom:20px;}
+.quzcon ol li::before{ top:3px; font-size:24px;}
+.quzcon .quop .opb{ padding-bottom:20px;}
+.quzcon .quop .opb{ width:100%; padding-right:0px; min-height:inherit}
+.gudsub .lfcol{ width:100%; border:0px;}
+.gudsub .rgcol{ width:100%;}
+.gudsub .rgcol .gudsco{ padding-left:0px;}
+.gudsub .lfcol .gudsco{ padding-right:0px;}
+.quzcon .btnsub{ padding-left:20px; padding-top:10px;}
+.sulsub{background-size: 30px 30px;     background-position: 20px 20px;    margin-bottom: 20px;    padding-bottom: 15px;    padding-left: 61px;    padding-right: 10px;    padding-top: 15px;}
+.sulsub h5{ font-size:14px; padding-bottom:10px;}
+.sulsub h6{ font-size:18px;}
+.fedfms .feqs .opb{ width:100%; padding-right:0px;}
+.fedfms .feqs .opb.bln{ display:none}
+.fedfms ol li::before{ font-size:20px; top:4px;}
+.fedfms ol li{ padding-left:10px; padding-bottom:20px; width:96%;}
+.fedfms .btnsub{ padding-left:20px; padding-top:10px;}
+.ledrbrdcn thead th, .ledrbrdcn tbody tr.myrng td, .ledrbrdcn tbody tr td{ padding:8px 10px; font-size:13px; vertical-align:top}
+.ledrbrdcn .his{ font-size:12px; background-size:15px 14px; padding-left:20px; margin-top:8px; height:inherit}
+.ledrbrdcn span.rn{ font-size:13px;}
+.ledrbrdcn .hisb {background-position: 0 3px; background-size: 15px 14px; font-size: 12px; height: inherit; line-height: 19px; margin-left: -10px; padding-left: 20px; }
+table.myhistbl a.cls{ margin-right:-10px;}
+.ledrbrdcn span.rn{ width:20px; text-align:center}
+.myrng.brd strong {    font-weight: normal;}
+.ledrbrdcn strong{ font-weight:normal;}
+/*.owl-link.dsbnrs{ padding-top:50px; padding-bottom:50px; background-color:#0081A0}*/
+ul.colstreg{ padding-bottom:25px;}
+}
+@media only screen and (max-width: 640px){
+.gr_pnl .lngpnl{ width:100%; padding-right:0px;}
+.gr_pnl .inpbx1{ width:94%; padding-left:3%; padding-right:3%; margin-bottom:5px;}
+.gr_pnl .btnblue{ width:100%; margin-left:0px;}
+.gr_pnl .btnblue.lgut{ width:auto; float:right;}
+.gr_pnl .conpnlb span{ display:inline-block; padding-top:5px;}
+.gr_pnl .conpnl{ margin-top:10px; width:100%;}
+.conlf{ width:100%; text-align:center}
+.renpnl a{ margin-left:10px; margin-right:10px;}
+.gr_pnl .renpnl{ text-align:center; padding-top:10px;}
+.gr_pnl .conpnl .conrg{ margin-left:auto; margin-right:auto; float:none; padding-top:10px;}
+.gr_pnl .conpnl .conrg .timerAre{ margin-left:-122px;}
+.gr_pnl .conpnl .conlf{ padding-top:0px;}
+.intnws .inbx{ width:90%; padding-left:5%; padding-right:5%; margin-bottom:10px;}
+.busar ul.bulst li{ width:92%; padding:15px 4% 0px 4%; height:inherit; min-height:inherit}
+.busar ul.bulst li:last-child{ width:92%; padding:15px 4% 0px 4%; height:inherit; min-height:inherit}
+.homecont .hmbx{ width:94%; padding-left:3%; padding-right:3%; height:inherit; padding-bottom:20px;}
+ul.colst li{ padding-bottom:20px;}
+ul.colst li span{ font-size:12px;}
+ul.colstreg li strong{ font-size:14px; width:40px;}
+ul.colstreg li span{ min-height:30px; font-size:12px;}
+.ledrbrdcn span.rn{ display:block; width:auto; text-align:left; padding-left:3px;}
+.ledrbrdcn .myrng span.rn{ padding-left:0px;}
+.quiz-n p{font-size:1.2em; line-height:0px; padding:0px; line-height:20px;}
+.quiz-n span{font-size:0.8em; display:block; margin-bottom:10px;}
+.quiz-madd .quiz-wtex h2{font-size:0.7em}
+.quiz-madd .quiz-wtex p{font-size:0.8em}
+.quiz-madd{width:95%; margin-left:7%;}
+}
+@media only screen and (max-width: 480px){
+ul.colstreg li span{ min-height:30px; font-size:9px; min-height:20px;}
+.ledrbrdcn thead th, .ledrbrdcn tbody tr.myrng td, .ledrbrdcn tbody tr td{ padding:10px 5px; font-size:11px; vertical-align:top}
+.ledrbrdcn .hisb{ margin-left:-5px;}
+table.myhistbl a.cls{ margin-right:-5px; font-size:13px;}
+table.myhistbl tbody tr.hislbs td{ font-size:11px !important;}
+table.myhistbl tbody tr td strong{ font-size:12px;}
+table.myhistbl{ margin-bottom:-5px; }
+ul.colstreg li strong{ font-size:12px; width:35px;}
+.quiz-n{ padding-bottom:30px;}
+}
+@media only screen and (max-width: 360px){
+.intnws .inbx .img-right{ float:none; margin-left:0px; margin-bottom:10px;}
+.quiz-img{  background-color:#019BBD; padding-bottom:50px;}
+.quiz-n{ padding-bottom:30px;}
+}
+

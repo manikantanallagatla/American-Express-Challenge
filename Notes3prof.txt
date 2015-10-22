@@ -1,0 +1,4 @@
+primary == 1
+MBA == 2
+professiol == 3
+doctorate == 4

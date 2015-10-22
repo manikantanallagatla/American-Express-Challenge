@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+.subcont h2{ color:#4d4f53; font-family:BentonSansMedium,Verdana,Arial,Helvetica,sans-serif; font-weight:normal; font-size:16px; line-height:22px; margin:3px 0px 18px 0px; padding:0px 0px 5px 0px}
+.subcont ol{ margin:10px 0px 0px 15px; padding:0px 0px 20px 0px}
+.subcont ol ol{ padding-bottom:0px; padding-top:10px;}
+.subcont ol ol li:last-child{ padding-bottom:0px;}
+.subcont ol li{ padding-bottom:20px; line-height:20px; }
+.subcont  a{ color:#006890}
+ol.fquAre{ margin:0px; padding:0px;}
+ol.fquAre > li{ color:#4d4f53; font-family:BentonSansMedium,Verdana,Arial,Helvetica,sans-serif; font-weight:normal; font-size:16px; line-height:22px; margin:3px 0px 18px 0px; padding:0px 0px 5px 0px !important; list-style:none}
+ol.fquAre > li > li{ font-size:14px;}
+.fquAre > ol{ padding-bottom:30px !important; padding-top:0px !important}
+ol.fquAre > li > ol li{ font-size:14px;}
+.ms{ color:#ff0000}
+.quzcon{ padding-bottom:20px;}/*
+.hombnr{background-color:#f2f2f2;}*/
+.btp{ font-size:11px; margin-top:10px; display:inline-block; float:right}
+.quzcon ol{list-style-type: none;  margin: 0 0px 0px 4px; padding: 0; counter-reset: li-counter;}
+.quzcon ol li:before{position: absolute; top: 4px; left: -18px; width: 29px; font-size: 16px;     line-height: 1;   text-align: right;    color: #464646;     content: counter(li-counter);    counter-increment: li-counter;}   
+.quzcon ol li{ position: relative;     padding-bottom: 60px;    padding-left: 30px; font-size:14px;  }
+.quzcon ol li p{ color: #4d4f53; font-family: BentonSansMedium,Verdana,Arial,Helvetica,sans-serif;     font-size: 16px;   font-weight: normal;    line-height: 22px;  }
+.quzcon .quop{ background-color:#FFF; border:1px solid #cccccc; padding:20px 20px 0px 20px; border-radius:3px;}
+.quzcon .quop .opb{ width:40%; padding-right:5%; float:left; min-height:40px;} 
+.quzcon .quop .opb .rdi{ float:left; display:inline-block; }
+.quzcon .quop .opb span{ display:inline-block; padding-left:25px; margin-top:-3px; float:left;}
+.inoth{ border:1px solid #ccc; padding:5px 10px; font-size:14px; color:#333;}
+.subcont a.jmclo{ display:inline-block; float:right; color:#FFF; font-size:12px; font-weight:bold; margin-top:7px;}
+.fedfms{ padding-bottom:20px;}
+.fedfms .btnsub{ padding-left:40px; margin-top:-10px;}
+.fedfms ol{list-style-type: none;  margin: 0 0px 0px 22px; padding: 0; counter-reset: li-counter;}
+.fedfms ol li:before{position: absolute; top: 0; left: -30px; width: 30px; font-size: 30px;     line-height: 1;   text-align: right;    color: #464646;     content: counter(li-counter);    counter-increment: li-counter;}   
+.fedfms ol li{ position: relative;     padding-bottom: 60px;    padding-left: 30px; font-size:14px;  }
+.fedfms .feqs{ background-color:#FFF; border:1px solid #cccccc; padding:20px 20px 0px 20px; border-radius:3px;}
+.fedfms .feqs .opb{ width:30%; padding-right:3%; float:left; min-height:30px; padding-bottom:20px;} 
+.fedfms .feqs .opb .chbx{ float:left; display:inline-block; }
+.fedfms .feqs .opb span{ display:inline-block; padding-left:10px; margin-top:-2px; float:left;}
+.fedfms .fetear{ background-color:#FFF; border:1px solid #cccccc; width:96%; height:100px; padding:20px 2% 0px 2%; border-radius:3px;}
+.fedfms .qurd:last-child{ border-bottom:0px; margin-bottom:0px;}
+.fedfms .qurd{ padding-bottom:20px; border-bottom:1px solid #e5e5e5; margin-bottom:20px; margin-left:-20px; padding-left:20px; margin-right:-20px; padding-right:20px;}
+.fedfms .qurd span{ font-size:14px; font-weight:normal}
+.fedfms .qurd .qes{font-size:14px; font-weight:bold; padding-bottom:10px;}
+.qes_op label{ padding-right:20px;}
+.qes_op span{ padding-left:10px;}
+
+.btnblue {background-color: #002663; margin-left:10px; padding:5px 30px;  border-radius:2px; 	-webkit-user-select:none;	-moz-user-select:none;	-ms-user-select:none;	-o-user-select:none;	user-select:none; font-size:24px;    background-image: linear-gradient(to bottom, #063682 0px, #002663 100%);    color: #ffffff; vertical-align:top; margin-top:1px; cursor:pointer;}
+.gudsub { padding-top:22px; width:100%; float:left}
+.quzcon .btnsub{ padding-left:40px; margin-top:-10px;}
+.gudsub .lfcol{ float:left; width:55%; border-right:1px solid #CCC;}
+.gudsub .rgcol{ float:right; width:44%;}
+.gudsub ol.datAre ul li { list-style:none}
+.gudsub .lfcol .gudsco{ padding-right:40px;}
+.gudsub .rgcol .gudsco{ padding-left:30px;}
+
+.guins{ background-color:#cccccc; padding:15px 20px; font-size:12px;  margin-bottom:15px; display:inline-block; border-radius:3px;}
+.guins p{ padding:0px 0px 5px 0px; margin:0px; font-weight:normal; }
+.guins span{ padding:0px 10px; font-weight:normal}
+.guins a{ line-height:12px; margin:0px; padding:0px; color:#006890; font-size:14px;}
+.gudsub .sbpnl{ background-color:#efefef; padding:15px 15px 25px 15px; margin-bottom:15px;}
+.gudsub .sbpnl .btnblue { font-size:14px; margin-left:0px; margin-top:10px;}
+.gudsub .sbpnl h4{ font-size:18px; font-weight:normal; color:#021f5b; margin:0px; line-height:18px; padding:0px 0px 20px 0px;}
+.gudsub .sbpnl span{ display:block; padding-bottom:7px;}
+.gudsub .uppfies{  background-color:#b3b3b3; color:#666666; border:1px solid #FFF; padding:3px; font-size:12px; font-weight:normal;  display:block; width:190px;}
+.gudsub .sbn_l{ float:left; width:200px;}
+.gudsub .sbn_r{ float:right; width:200px;}
+.sulsub{ background-color:#efefef; padding:35px 35px 35px 110px; background-position:30px 30px; margin-bottom:90px; background-image:url(../images/ic_wait.png); background-repeat:no-repeat;}
+.sulsub h5{ font-size:18px; color:#666666; font-weight:normal; padding:0px 0px 30px 0px;}
+.sulsub h6{ font-size:24px; font-weight:normal; color:#042163}
+
+.ledrbrdcn{border:1px solid #cccccc; overflow:hidden; border-radius:3px; margin-bottom:15px; margin-top:15px;}
+.ledrbrdcn table { width:100%;   border-collapse: collapse;  background:#fff; }
+.ledrbrdcn thead {	background-color:#cccccc;}
+.ledrbrdcn thead th {  font-size:15px;  font-weight:bold;  color:#03205e;  text-align:left; border-bottom:2px solid #9099ae; padding:13px 20px; }
+.ledrbrdcn tbody tr td { color:#4d4f53;  font-size:15px; padding:13px 20px;    }
+.ledrbrdcn tbody tr td span{ font-size:12px;}
+.ledrbrdcn tbody tr.myrng td {  font-weight:400;  color:#052467;  font-size:15px; padding:13px 20px;   background-color:#b4bdd1  }
+.ledrbrdcn tbody tr.myrng td.brd {border-bottom:1px solid #ffffff;  }
+.ledrbrdcn tbody tr:nth-child(2n) {  background:#efefef;}
+.ledrbrdcn tbody tr:last-child td {  border-bottom:none;}
+.ledrbrdcn tbody:hover > tr:hover td {  color:#2d2d2d;}
+.ledrbrdcn span.up{ background-image:url(../images/ran_up.png); display:inline-block; width:14px; height:10px; }
+.ledrbrdcn span.dn{ background-image:url(../images/ran_dn.png); display:inline-block; width:14px; height:10px; }
+.ledrbrdcn span.rn{ font-size:16px; width:40px; display:inline-block}
+.ledrbrdcn .hisbtn{ width:100px; position:absolute}
+.ledrbrdcn .jumbtn{ width:100px; position:absolute}
+.ledrbrdcn  .his{ background-image:url(../images/ic_his.png); display:inline-block; height:23px; background-repeat:no-repeat; padding-left:28px; font-size:15px; color:#333 !important; margin-left:20px;}
+.ledrbrdcn  .jmb{ background-color:#002663; font-size:10px; color:#ffffff !important; margin-left:10px; padding:4px 7px; border-radius:5px; margin-top:0px; display:inline-block;}
+.ledrbrdcn .hisdentsl{ display:none}
+.jumme{  padding:1px 15px; background-color:#09347a; margin-top:100px; margin-bottom:100px;}
+.jumme h6{ color:#FFF; font-size:18px; padding:10px 0px 0px 0px; font-weight:normal}
+.ledrbrdcn table.myhistbl thead { background-color:#b4bdd1;}
+.ledrbrdcn table.myhistbl thead th{ border-bottom:0px; }
+table.myhistbl{ background-color:#FFF; margin-top:-15px; margin-bottom:5px;}
+table.myhistbl a.cls{ text-align:right; float:right; margin-right:-20px; color:#03205e; font-weight:normal}
+.ledrbrdcn  .hisb{ background-image:url(../images/ic_his.png); display:inline-block; height:23px; background-repeat:no-repeat; padding-left:28px; font-size:15px; color:#03205e; font-weight:normal; margin-left:-20px;}
+table.myhistbl tbody{ border:1px solid #a3a3a3; border-radius:3px; overflow:hidden}
+table.myhistbl tr:nth-child(even) td {background-color: #efefef !important}
+table.myhistbl tr:nth-child(odd) td {background-color: #FFF !important}
+table.myhistbl tbody tr{ background-color:#FFF }
+table.myhistbl tbody tr td{ font-size:12px !important; color:#666666 !important}
+table.myhistbl tbody tr.hislbs td{ font-size:14px !important; color:#03205e !important; font-weight:bold !important; background-color:#ccc !important}
+table.myhistbl tbody tr td strong{ font-weight:normal; font-size:15px; color:#333;}
+.ledrbrdcn table.myhistbl tbody tr:nth-child(2n) {  background:#efefef ;}
+.colstreg > li { width:13%; text-align:center; display:inline-block;}
+.colstreg > li > img{ max-width:68px; margin:0px auto;}
+ul.colstreg{ list-style:none; margin:0px auto; padding:40px 0px 80px 0px; text-align:center; width:100%; background-color:#f2f2f2;}
+ul.colstreg li{ display:inline-block}
+ul.colstreg li span{ display:block; text-align:center; color:#333; font-size:13px; margin-top:-15px;}
+ul.colstreg li strong{ display:inline-block; padding:3px 0px; margin-left:auto; margin-right:auto; margin-top:10px; background-color:#032060; border-radius:3px; color:#FFF; width:50px; font-size:16px; font-weight:bold; }
+ul.colstreg .titre{ text-align:center; padding-bottom:60px; color:#03205e; font-size:36px; font-family:'BentonSansLight',Arial, Helvetica, sans-serif; font-weight:normal}
+.dashcont{ padding-top:40px; padding-bottom:20px;}
+.dashcont h3{ font-size:18px; color:#03205e; font-weight:normal}
+.dashcont .dsnw{ width:312px; min-height:305px; float:left; background-color:#efefef; padding:20px;}
+.dashcont .dsnw ul li a{ color:#333}
+.dashcont .dsnw h3{ padding-bottom:20px; margin:0px; line-height:18px; }
+.dashcont .dsnw ul{ list-style:none; }
+.dashcont .dsnw ul li{ border-bottom:1px solid #d7d7d7; padding-bottom:20px; margin-bottom:20px;}
+.dashcont .dsnw ul li:last-child{ margin-bottom:0px; padding-bottom:0px; border-bottom:0px;}
+.dashcont .dsnw ul li span{ font-size:12px; color:#666666; display:block; padding-bottom:10px;}
+.dashcont .dstesi{ width:310px; min-height:305px;  padding:20px; margin-left:10px; float:left; border:1px solid #eeeeee}
+.dashcont .dstesi ul{ list-style:none; }
+.dashcont .dstesi ul li{ border-bottom:1px solid #e5e5e5; padding-bottom:20px; margin-bottom:20px; font-size:12px; color:#666666}
+.dashcont .dstesi h3{ padding-bottom:19px; margin:0px; line-height:18px; }
+.dashcont .dstesi ul li span{ font-size:12px; color:#333; display:block; padding-top:5px;}
+.dashcont .dstesi ul li:last-child { margin-bottom:0px; padding-bottom:14px; border-bottom:0px;}
+.dashcont .dsimpt{ width:312px; min-height:305px; background-color:#006890; color:#FFF; padding:20px; float:right}
+.dashcont .dsimpt h3{ padding-bottom:19px; color:#fff; margin:0px; line-height:18px; }
+.dashcont .dsimpt .dtes{ padding-top:30px; font-size:18px; font-family:'BentonSansLight',Arial, Helvetica, sans-serif; }
+.dashcont .dsimpt .dtes strong{font-family: BentonSansMedium,"Helvetica Neue",Helvetica,Arial,sans-serif; }
+.quzwnrs{ background-image:url(../images/quiz-winbkg.jpg); width:100%;}
+.wrMsg {color: #ff0009;    margin-top: -10px;    padding-bottom: 10px;}
+.suMsg {color: #40a10b;    margin-top: -10px;    padding-bottom: 10px;}

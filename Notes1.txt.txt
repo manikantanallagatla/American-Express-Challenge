@@ -1,0 +1,24 @@
+Others == 1
+Teacher == 2
+Middle Magement == 3
+Magician == 4
+Consultant == 5
+Doctor == 6
+Pilot == 7
+Social Worker == 8
+Scientist == 9
+Director == 10
+Self Employed ==11
+House Husband == 12
+Senior Magement ==13
+Politician ==14
+Chef ==15
+Janitor ==16
+Lawyer== 17
+Amabassador ==18
+Factory Mager ==19
+Student ==20
+Service ==21
+Dentist ==22
+Military==23
+Nurse ==24
